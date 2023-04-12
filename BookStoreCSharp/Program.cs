@@ -13,19 +13,6 @@ int reviews = 5413;
 bool kindle = true;
 bool flexibleCover = true;
 
-if (!kindle)
-{
-    Console.WriteLine("No");
-} else
-{
-    Console.WriteLine("Si");
-}
-
-if (flexibleCover)
-{
-    Console.WriteLine("Si");
-}
-
 // Stampa delle informazioni:
 
 Console.WriteLine("-------IL LIBRO DI OGGI: " +  title + " di " + author + " -------");
